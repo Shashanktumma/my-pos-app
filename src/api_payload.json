@@ -1,0 +1,368 @@
+{
+  "customers": [
+    {
+      "id": "12415346512",
+      "name": "12415346512",
+      "mobile": "079 5646 5779",
+      "address": "57 Shore Street, Stoke Hammond",
+      "orders": 2
+    },
+    {
+      "id": "12415346513",
+      "name": "12415346512",
+      "mobile": "078 0986 4128",
+      "address": "23 Hertingfordbury, Newington",
+      "orders": 3
+    },
+    {
+      "id": "12415346514",
+      "name": "12415346512",
+      "mobile": "070 4430 8794",
+      "address": "41 Bath Rd, Wolf's Castle",
+      "orders": 4
+    },
+    {
+      "id": "12415346515",
+      "name": "12415346512",
+      "mobile": "078 1859 7832",
+      "address": "73 Iolaire Road, New Bradwell",
+      "orders": 6
+    },
+    {
+      "id": "12415346516",
+      "name": "12415346512",
+      "mobile": "079 8206 7933",
+      "address": "28 Prince Consort Road, Kelstern",
+      "orders": 1
+    },
+    {
+      "id": "12415346517",
+      "name": "12415346512",
+      "mobile": "077 2300 6663",
+      "address": "35 Park Terrace, Gileston",
+      "orders": 8
+    },
+    {
+      "id": "12415346518",
+      "name": "12415346512",
+      "mobile": "070 0352 6375",
+      "address": "48 Glenurchart Road, Balcherry",
+      "orders": 3
+    }
+  ],
+  "orders": [
+    {
+      "id": "12415346512",
+      "date": "Tue 10 Jun 2025 13:00 IST",
+      "amount": 18.89,
+      "orders": 2,
+      "category": "Food",
+      "menu": "Mac and Cheese",
+      "customer_id": "12415346512"
+    },
+    {
+      "id": "12415346512",
+      "date": "Tue 10 Jun 2025 07:20 IST",
+      "amount": 45.50,
+      "orders": 3,
+      "category": "Food",
+      "menu": "Chili Cheese Dog",
+      "customer_id": "12415346513"
+    },
+    {
+      "id": "12415346512",
+      "date": "Tue 10 Jun 2025 02:45 IST",
+      "amount": 88.00,
+      "orders": 4,
+      "category": "Food",
+      "menu": "Biscuits and Gravy",
+      "customer_id": "12415346514"
+    },
+    {
+      "id": "12415346512",
+      "date": "Tue 10 Jun 2025 14:00 IST",
+      "amount": 15.00,
+      "orders": 6,
+      "category": "Food",
+      "menu": "Biscuits and Gravy",
+      "customer_id": "12415346515"
+    },
+    {
+      "id": "12415346512",
+      "date": "Tue 10 Jun 2025 07:52 IST",
+      "amount": 12.50,
+      "orders": 1,
+      "category": "Coffee",
+      "menu": "Flatwhite",
+      "customer_id": "12415346516"
+    },
+    {
+      "id": "12415346512",
+      "date": "Tue 10 Jun 2025 12:15 IST",
+      "amount": 40.20,
+      "orders": 8,
+      "category": "Coffee",
+      "menu": "Ice Latte",
+      "customer_id": "12415346517"
+    },
+    {
+      "id": "12415346512",
+      "date": "Tue 10 Jun 2025 05:40 IST",
+      "amount": 88.00,
+      "orders": 3,
+      "category": "Coffee",
+      "menu": "Ice Latte",
+      "customer_id": "12415346518"
+    }
+  ],
+  "categories": {
+    "Coffee": {
+      "filters": [
+        { "id": "cappuccino", "name": "Cappuccino" },
+        { "id": "latte", "name": "Latte" },
+        { "id": "espresso", "name": "Espresso" },
+        { "id": "americano", "name": "Americano" },
+        { "id": "mocha", "name": "Mocha" },
+        { "id": "flatwhite", "name": "Flat White" },
+        { "id": "cortado", "name": "Cortado" },
+        { "id": "frappemocha", "name": "Frappé Mocha" }
+      ]
+    },
+    "Food": {
+      "filters": [
+        { "id": "pizza", "name": "Pizza" },
+        { "id": "sandwich", "name": "Sandwich" },
+        { "id": "breakfast", "name": "Breakfast" },
+        { "id": "salad", "name": "Salad" },
+        { "id": "vegan", "name": "Vegan" },
+        { "id": "pasta", "name": "Pasta" }
+      ]
+    }
+  },
+  "products": {
+    "coffee": [
+      {
+        "id": "c1",
+        "name": "Cortado",
+        "price": 8.50,
+        "image": "https://images.pexels.com/photos/312420/pexels-photo-312420.jpeg",
+        "sizes": ["small", "large"],
+        "filter": ""
+      },
+      {
+        "id": "c2",
+        "name": "Frappé Mocha",
+        "price": 8.50,
+        "image": "https://images.pexels.com/photos/1235706/pexels-photo-1235706.jpeg",
+        "sizes": ["small", "large"],
+        "filter": ""
+      },
+      {
+        "id": "c3",
+        "name": "Cappuccino",
+        "price": 8.50,
+        "image": "https://images.pexels.com/photos/2396220/pexels-photo-2396220.jpeg",
+        "sizes": ["small", "large"],
+        "filter": ""
+      },
+      {
+        "id": "c4",
+        "name": "Mocha Cortado",
+        "price": 8.50,
+        "image": "https://images.pexels.com/photos/312420/pexels-photo-312420.jpeg",
+        "sizes": ["small", "large"],
+        "filter": ""
+      },
+      {
+        "id": "c5",
+        "name": "Americano",
+        "price": 8.50,
+        "image": "https://images.pexels.com/photos/2396220/pexels-photo-2396220.jpeg",
+        "sizes": ["small", "large"],
+        "filter": ""
+      },
+      {
+        "id": "c6",
+        "name": "Flat White",
+        "price": 8.50,
+        "image": "https://images.pexels.com/photos/982612/pexels-photo-982612.jpeg",
+        "sizes": ["small", "large"],
+        "filter": ""
+      },
+      {
+        "id": "c7",
+        "name": "Mocha",
+        "price": 8.50,
+        "image": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg",
+        "sizes": ["small", "large"],
+        "filter": ""
+      },
+      {
+        "id": "c8",
+        "name": "Flat Black",
+        "price": 8.50,
+        "image": "https://images.pexels.com/photos/414645/pexels-photo-414645.jpeg",
+        "sizes": ["small", "large"],
+        "filter": ""
+      },
+      {
+        "id": "c9",
+        "name": "Ice Coffee",
+        "price": 8.50,
+        "image": "https://images.pexels.com/photos/1251198/pexels-photo-1251198.jpeg",
+        "sizes": ["small", "large"],
+        "filter": ""
+      },
+      {
+        "id": "c10",
+        "name": "Frappé Mocha",
+        "price": 8.50,
+        "image": "https://images.pexels.com/photos/1235706/pexels-photo-1235706.jpeg",
+        "sizes": ["small", "large"],
+        "filter": ""
+      },
+      {
+        "id": "c11",
+        "name": "Espresso",
+        "price": 8.50,
+        "image": "https://images.pexels.com/photos/209339/pexels-photo-209339.jpeg",
+        "sizes": ["small", "large"],
+        "filter": ""
+      },
+      {
+        "id": "c12",
+        "name": "Cortado",
+        "price": 8.50,
+        "image": "https://images.pexels.com/photos/312420/pexels-photo-312420.jpeg",
+        "sizes": ["small", "large"],
+        "filter": ""
+      }
+    ],
+    "food": [
+      {
+        "id": "f1",
+        "name": "Cheese & Tomato Pizza",
+        "price": 40.50,
+        "image": "https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg",
+        "sizes": ["small", "large"],
+        "filter": ""
+      },
+      {
+        "id": "f2",
+        "name": "Smoky Ham & Cheese",
+        "price": 10.00,
+        "image": "https://images.pexels.com/photos/3990452/pexels-photo-3990452.jpeg",
+        "sizes": ["small", "large"],
+        "filter": ""
+      },
+      {
+        "id": "f3",
+        "name": "Poached Egg & Bacon",
+        "price": 40.50,
+        "image": "https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg",
+        "sizes": ["small", "large"],
+        "filter": ""
+      },
+      {
+        "id": "f4",
+        "name": "Pesto Pasta Salad",
+        "price": 10.00,
+        "image": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg",
+        "sizes": ["small", "large"],
+        "filter": ""
+      },
+      {
+        "id": "f5",
+        "name": "Vegan Meatball Wrap",
+        "price": 10.00,
+        "image": "https://images.pexels.com/photos/5848057/pexels-photo-5848057.jpeg",
+        "sizes": ["small", "large"],
+        "filter": ""
+      },
+      {
+        "id": "f6",
+        "name": "Vegan BBQ Chick'n Panini",
+        "price": 40.50,
+        "image": "https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg",
+        "sizes": ["small", "large"],
+        "filter": ""
+      },
+      {
+        "id": "f7",
+        "name": "Creamy Mac & Cheese",
+        "price": 10.00,
+        "image": "https://images.pexels.com/photos/1438672/pexels-photo-1438672.jpeg",
+        "sizes": ["small", "large"],
+        "filter": ""
+      },
+      {
+        "id": "f8",
+        "name": "Coronation Toastie",
+        "price": 10.00,
+        "image": "https://images.pexels.com/photos/1273767/pexels-photo-1273767.jpeg",
+        "sizes": ["small", "large"],
+        "filter": ""
+      }
+    ]
+  },
+  "cart": [
+    {
+      "id": "f3",
+      "name": "Poached Egg & Bacon",
+      "price": 40,
+      "size": "large",
+      "quantity": 2,
+      "image": "https://images.pexels.com/photos/162744/pexels-photo-162744.jpeg"
+    },
+    {
+      "id": "c1",
+      "name": "Cortado",
+      "price": 8.50,
+      "size": "large",
+      "quantity": 2,
+      "image": "https://images.pexels.com/photos/312420/pexels-photo-312420.jpeg"
+    },
+    {
+      "id": "f8",
+      "name": "Coronation Toastie",
+      "price": 10,
+      "size": "large",
+      "quantity": 2,
+      "image": "https://images.pexels.com/photos/1273767/pexels-photo-1273767.jpeg"
+    }
+  ],
+  "invoice": {
+    "invoice_no": "123454 23/01/2024 14:00:23",
+    "table": "TABLE 04",
+    "order_id": "#0029",
+    "items": [
+      {
+        "id": "f3",
+        "name": "Poached Egg & Bacon",
+        "price": 40,
+        "size": "large",
+        "quantity": 2,
+        "image": "https://images.pexels.com/photos/162744/pexels-photo-162744.jpeg"
+      },
+      {
+        "id": "c1",
+        "name": "Cortado",
+        "price": 8.50,
+        "size": "large",
+        "quantity": 2,
+        "image": "https://images.pexels.com/photos/312420/pexels-photo-312420.jpeg"
+      },
+      {
+        "id": "f8",
+        "name": "Coronation Toastie",
+        "price": 10,
+        "size": "large",
+        "quantity": 2,
+        "image": "https://images.pexels.com/photos/1273767/pexels-photo-1273767.jpeg"
+      }
+    ],
+    "total": 77,
+    "items_count": 3,
+    "quantity": 6
+  }
+}
