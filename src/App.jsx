@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { CssVarsProvider } from '@mui/joy/styles';
 import { Box } from '@mui/joy';
 import Sidebar from './Sidebar';
-import TopNav from './Topnav';
+import TopNav from './TopNav';
 import CustomerPage from './CustomerPage';
 import OrdersPage from './OrdersPage';
 import NewOrderPage from './NewOrderPage';
